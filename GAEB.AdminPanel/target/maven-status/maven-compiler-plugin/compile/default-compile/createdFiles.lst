@@ -1,0 +1,14 @@
+adminPages\UserPermessionPage.class
+adminPages\AddUserPage.class
+adminPages\LoginPage.class
+adminPages\HomePage.class
+adminConfig\ExcelData.class
+adminPages\ChangeUserPasswordPage.class
+adminConfig\AdminBase_Setup.class
+adminListeners\ITestListeners.class
+adminPages\DeactivateUserPage.class
+adminPages\ViewUserDetailsPage.class
+adminPages\EditUserPage.class
+adminRecords\ScreenShot.class
+adminPages\UserTablePage.class
+adminListeners\FiringEventListeners.class

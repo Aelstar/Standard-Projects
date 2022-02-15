@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 1, Errors: 0, Skipped: 26, Time elapsed: 0.323 s <<< FAILURE! - in TestSuite
+before_Method(adminTestCases.AddUserPageTest)  Time elapsed: 0.168 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by @Configuration on method before_Method but has not been marked @Optional or defined
+
+

@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 57.632 s <<< FAILURE! - in TestSuite
+check_Status(testCases.Rest1Test)  Time elapsed: 0.349 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <300> but was <200>.
+
+	at testCases.Rest1Test.check_Status(Rest1Test.java:32)
+
+test_all_rest(testCases.Rest1Test)  Time elapsed: 0.264 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data[3].'email' doesn't match.
+Expected: Ahmed 1
+  Actual: byron.fields@reqres.in
+
+	at testCases.Rest1Test.test_all_rest(Rest1Test.java:84)
+
+test_all_rest(testCases.Rest1Test)  Time elapsed: 0.278 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data[3].'email' doesn't match.
+Expected: Ahmed 2
+  Actual: byron.fields@reqres.in
+
+	at testCases.Rest1Test.test_all_rest(Rest1Test.java:84)
+
+test_all_rest(testCases.Rest1Test)  Time elapsed: 0.256 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data[3].'email' doesn't match.
+Expected: Ahmed 3
+  Actual: byron.fields@reqres.in
+
+	at testCases.Rest1Test.test_all_rest(Rest1Test.java:84)
+
+test_all_rest(testCases.Rest1Test)  Time elapsed: 0.261 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data[3].'email' doesn't match.
+Expected: Ahmed 4
+  Actual: byron.fields@reqres.in
+
+	at testCases.Rest1Test.test_all_rest(Rest1Test.java:84)
+

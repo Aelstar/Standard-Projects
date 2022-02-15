@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="adminListeners.ITestListeners"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+
+		<parameter name="browser" value="chrome"></parameter>
+
+		<classes>
+
+			<class name="adminTestCases.ExtentReport" />
+			<class name="adminTestCases.LoginPageTest" />
+			<class name="adminTestCases.DeactivateUserPageTest" />
+			<class name="adminTestCases.HomePageTest" />
+			<class name="adminTestCases.AddUserPageTest" />
+			<class name="adminTestCases.ViewUserDetailsPageTest" />
+			<class name="adminTestCases.EditUserPageTest" />
+			<class name="adminTestCases.UserPermessionPageTest" />
+			<class name="adminTestCases.UserTablePageTest" />
+			<class name="adminTestCases.ChangeUserPasswordPageTest" />
+
+		</classes>
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

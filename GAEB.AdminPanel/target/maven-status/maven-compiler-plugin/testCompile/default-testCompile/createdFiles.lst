@@ -1,0 +1,10 @@
+adminTestCases\AddUserPageTest.class
+adminTestCases\LoginPageTest.class
+adminTestCases\ExtentReport.class
+adminTestCases\ChangeUserPasswordPageTest.class
+adminTestCases\EditUserPageTest.class
+adminTestCases\UserTablePageTest.class
+adminTestCases\DeactivateUserPageTest.class
+adminTestCases\HomePageTest.class
+adminTestCases\UserPermessionPageTest.class
+adminTestCases\ViewUserDetailsPageTest.class

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="adminTestCases.AddUserPageTest">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- adminTestCases.AddUserPageTest -->
+      <class name="adminTestCases.LoginPageTest">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- adminTestCases.LoginPageTest -->
+      <class name="adminTestCases.UserPermessionPageTest">
+        <methods>
+          <include name="test7"/>
+        </methods>
+      </class> <!-- adminTestCases.UserPermessionPageTest -->
+      <class name="adminTestCases.EditUserPageTest">
+        <methods>
+          <include name="test5"/>
+        </methods>
+      </class> <!-- adminTestCases.EditUserPageTest -->
+      <class name="adminTestCases.DeactivateUserPageTest">
+        <methods>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- adminTestCases.DeactivateUserPageTest -->
+      <class name="adminTestCases.UserTablePageTest">
+        <methods>
+          <include name="test9"/>
+        </methods>
+      </class> <!-- adminTestCases.UserTablePageTest -->
+      <class name="adminTestCases.ChangeUserPasswordPageTest">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- adminTestCases.ChangeUserPasswordPageTest -->
+      <class name="adminTestCases.ViewUserDetailsPageTest">
+        <methods>
+          <include name="test8"/>
+        </methods>
+      </class> <!-- adminTestCases.ViewUserDetailsPageTest -->
+      <class name="adminTestCases.HomePageTest">
+        <methods>
+          <include name="test6"/>
+        </methods>
+      </class> <!-- adminTestCases.HomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

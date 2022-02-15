@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-23T14:02:50Z" name="Suite" finished-at="2022-01-23T14:02:55Z" duration-ms="5657">
+    <groups>
+    </groups>
+    <test started-at="2022-01-23T14:02:50Z" name="Test" finished-at="2022-01-23T14:02:55Z" duration-ms="5657">
+      <class name="testCases.LoginPageTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginPageTest@710c2b53]" started-at="2022-01-23T16:02:50Z" name="beforeMethod" finished-at="2022-01-23T16:02:51Z" duration-ms="1617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.Test1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test1()[pri:0, instance:testCases.LoginPageTest@710c2b53]" started-at="2022-01-23T16:02:51Z" name="Test1" finished-at="2022-01-23T16:02:51Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTest@710c2b53]" started-at="2022-01-23T16:02:51Z" name="afterMethod" finished-at="2022-01-23T16:02:52Z" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.Test1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=LoginPageTest.Test1()[pri:0, instance:testCases.LoginPageTest@710c2b53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginPageTest@710c2b53]" started-at="2022-01-23T16:02:52Z" name="beforeMethod" finished-at="2022-01-23T16:02:53Z" duration-ms="1368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.Test3() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test3()[pri:0, instance:testCases.LoginPageTest@710c2b53]" started-at="2022-01-23T16:02:53Z" name="Test3" finished-at="2022-01-23T16:02:53Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTest@710c2b53]" started-at="2022-01-23T16:02:53Z" name="afterMethod" finished-at="2022-01-23T16:02:53Z" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.Test3() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test3 status=SUCCESS method=LoginPageTest.Test3()[pri:0, instance:testCases.LoginPageTest@710c2b53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.LoginPageTest -->
+      <class name="testCases.ExtentRep">
+        <test-method is-config="true" signature="Extentreport()[pri:0, instance:testCases.ExtentRep@3e08ff24]" started-at="2022-01-23T16:02:50Z" name="Extentreport" finished-at="2022-01-23T16:02:50Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.ExtentRep@3e08ff24]" started-at="2022-01-23T16:02:55Z" name="afterSuite" finished-at="2022-01-23T16:02:56Z" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.ExtentRep -->
+      <class name="testCases.HomePageTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.HomePageTest@4d1c005e]" started-at="2022-01-23T16:02:53Z" name="beforeMethod" finished-at="2022-01-23T16:02:55Z" duration-ms="2044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.HomePageTest.Test2()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test2()[pri:0, instance:testCases.HomePageTest@4d1c005e]" started-at="2022-01-23T16:02:55Z" name="Test2" finished-at="2022-01-23T16:02:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@4d1c005e]" started-at="2022-01-23T16:02:55Z" name="afterMethod" finished-at="2022-01-23T16:02:55Z" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.HomePageTest.Test2()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=HomePageTest.Test2()[pri:0, instance:testCases.HomePageTest@4d1c005e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

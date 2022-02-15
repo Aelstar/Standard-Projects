@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 26.396 s <<< FAILURE! - in TestSuite
+getPageData(pagesTests.RestAssured1)  Time elapsed: 0.286 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: io/restassured/path/json/mapper/factory/JsonbObjectMapperFactory
+	at pagesTests.RestAssured1.getPageData(RestAssured1.java:66)
+Caused by: java.lang.ClassNotFoundException: io.restassured.path.json.mapper.factory.JsonbObjectMapperFactory
+	at pagesTests.RestAssured1.getPageData(RestAssured1.java:66)
+
+restTest1(pagesTests.RestAssured1)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at pagesTests.RestAssured1.restTest1(RestAssured1.java:27)
+
+restTest2Statuscode(pagesTests.RestAssured1)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at pagesTests.RestAssured1.restTest2Statuscode(RestAssured1.java:46)
+
+restTest3containsdata(pagesTests.RestAssured1)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at pagesTests.RestAssured1.restTest3containsdata(RestAssured1.java:56)
+

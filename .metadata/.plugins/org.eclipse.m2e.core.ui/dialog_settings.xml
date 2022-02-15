@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ahmed.abdelstar\eclipse-workspace\try it now"/>
+			<item value="C:\Users\ahmed.abdelstar\eclipse-workspace\StandardProject"/>
+			<item value="C:\Users\ahmed.abdelstar\eclipse-workspace\StandardConfiguration"/>
+			<item value="C:\Users\ahmed.abdelstar\eclipse-workspace\GAEB_Demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Learning.ShaftEngine1"/>
+			<item value="Learning.ReviewCode"/>
+			<item value="Learning.RestAssured3"/>
+			<item value="RestAssured3.Learnibg"/>
+			<item value="Learning.RestAssured2"/>
+			<item value="Learning.Rest_Assured"/>
+			<item value="Rest_Assured.Learning"/>
+			<item value="Learning.Cucumberwithmvn"/>
+			<item value="Learning.Cucumber_Sessions"/>
+			<item value="Learning.Sessions"/>
+			<item value="GAEB.GAEB.AdminPanel"/>
+			<item value="GAEB.AdminPanel"/>
+			<item value="Setup.StandardProject"/>
+			<item value="Project.StandardsTest"/>
+			<item value="Project.StandardConfiguration"/>
+		</list>
+		<list key="groupId">
+			<item value="Learning"/>
+			<item value="RestAssured3"/>
+			<item value="Rest_Assured"/>
+			<item value="GAEB"/>
+			<item value="Setup"/>
+			<item value="Project"/>
+			<item value="Projects"/>
+			<item value="Test"/>
+			<item value="TestDemo"/>
+			<item value="GAEB_Demo"/>
+		</list>
+		<list key="artifactId">
+			<item value="ShaftEngine1"/>
+			<item value="ReviewCode"/>
+			<item value="RestAssured3"/>
+			<item value="Learnibg"/>
+			<item value="RestAssured2"/>
+			<item value="Rest_Assured"/>
+			<item value="Learning"/>
+			<item value="Cucumberwithmvn"/>
+			<item value="Cucumber_Sessions"/>
+			<item value="Sessions"/>
+			<item value="GAEB.AdminPanel"/>
+			<item value="AdminPanel"/>
+			<item value="StandardProject"/>
+			<item value="StandardsTest"/>
+			<item value="StandardConfiguration"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="665"/>
+		<item key="x" value="720"/>
+		<item key="y" value="72"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+</section>

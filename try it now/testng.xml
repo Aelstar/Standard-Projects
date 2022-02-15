@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Try Suite">
+<!-- <listeners>
+<listener class-name="Listener"></listener></listeners>
+--> 
+<parameter name="URL" value=""></parameter>
+  <test thread-count="5" name="Test Learning">
+
+<!-- <groups>
+<run>
+<include name="E2E">
+</include>
+<include name="ssss"></include>
+</run>
+
+</groups>
+-->
+
+    <classes>
+
+      <class name="com.sitetest.Second_Session">
+<!-- 
+<methods>
+<include name="hfgffhfg"></include>
+</methods>-->
+
+      </class>
+      <class name="com.sitetest.First_Session"/>
+    </classes>
+  </test> <!-- Test Learning -->
+</suite> <!-- Try Suite -->
