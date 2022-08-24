@@ -7,6 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browsers" value="chrome"/>
     <classes>
+      <class name="testCases.HomePageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="test_homePage4"/>
+          <include name="after_Method"/>
+        </methods>
+      </class> <!-- testCases.HomePageTest -->
       <class name="testCases.LoginPageTest">
         <methods>
           <include name="Setup"/>
@@ -15,13 +22,6 @@
           <include name="after_Method"/>
         </methods>
       </class> <!-- testCases.LoginPageTest -->
-      <class name="testCases.HomePageTest">
-        <methods>
-          <include name="Setup"/>
-          <include name="test_homePage4"/>
-          <include name="after_Method"/>
-        </methods>
-      </class> <!-- testCases.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

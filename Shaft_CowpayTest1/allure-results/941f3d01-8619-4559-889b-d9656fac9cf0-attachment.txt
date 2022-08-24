@@ -1,0 +1,14 @@
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/Extractor Data.xlsx]. @15-03-2022 10:24:40.0276 AM
+[ReportManager] Successfully created attachment [Test Data - Excel] @15-03-2022 10:24:40.0277 AM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @15-03-2022 10:24:40.0285 AM
+[ReportManager] Attempting to run locally on: [Windows-64], [GoogleChrome]. @15-03-2022 10:24:40.0302 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @15-03-2022 10:24:40.0303 AM
+[ReportManager] Successfully Opened Google Chrome. @15-03-2022 10:24:42.0874 AM
+[ReportManager] Target URL: [http://197.168.1.222:7070/], and after redirection: [https://197.168.1.222:7072/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dangular-client%26redirect_uri%3Dhttp%253A%252F%252F197.168.1.222%253A7070%252Fauth%252Fsignin-callback%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520merchantapi%26state%3D4e49ffe230ab48f19542b847fb61f37e%26code_challenge%3DlUvgyuQfZs4NICZpfLf8jtAIn-UqLewiJEbeUeYp-UA%26code_challenge_method%3DS256%26response_mode%3Dquery] @15-03-2022 10:24:43.0103 AM
+[ReportManager] Initial URL: [data:,] @15-03-2022 10:24:43.0157 AM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20220315-102444", Target File: "\1647332685182_initialBrowser.gif"]. @15-03-2022 10:24:45.0365 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [http://197.168.1.222:7070/]. @15-03-2022 10:24:45.0814 AM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [ahmed.3bdelstar@gmail.com]. @15-03-2022 10:24:46.0975 AM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [P@ssw0rd]. @15-03-2022 10:24:48.0105 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Login]. @15-03-2022 10:24:49.0713 AM
+[ReportManager] Successfully created attachment [Animated Gif - initialBrowser] @15-03-2022 10:24:49.0716 AM

@@ -2,22 +2,22 @@
 <testng-results total="14" passed="0" failed="0" skipped="14">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-15T07:30:45Z" name="Suite" finished-at="2022-02-15T07:30:46Z" duration-ms="1207">
+  <suite started-at="2022-04-22T01:50:03Z" name="Suite" finished-at="2022-04-22T01:50:03Z" duration-ms="497">
     <groups>
     </groups>
-    <test started-at="2022-02-15T07:30:45Z" name="Test" finished-at="2022-02-15T07:30:46Z" duration-ms="1207">
+    <test started-at="2022-04-22T01:50:03Z" name="Test" finished-at="2022-04-22T01:50:03Z" duration-ms="497">
       <class name="testCases.Extent">
-        <test-method is-config="true" signature="ExtentsRep()[pri:0, instance:testCases.Extent@7a5ceedd]" started-at="2022-02-15T09:30:45Z" name="ExtentsRep" finished-at="2022-02-15T09:30:45Z" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="ExtentsRep()[pri:0, instance:testCases.Extent@15888343]" started-at="2022-04-22T03:50:02Z" name="ExtentsRep" finished-at="2022-04-22T03:50:03Z" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentsRep -->
-        <test-method is-config="true" signature="after_Suite()[pri:0, instance:testCases.Extent@7a5ceedd]" started-at="2022-02-15T09:30:46Z" name="after_Suite" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Suite()[pri:0, instance:testCases.Extent@15888343]" started-at="2022-04-22T03:50:03Z" name="after_Suite" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Suite -->
       </class> <!-- testCases.Extent -->
       <class name="testCases.LoginTest">
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@239a307b]" started-at="2022-02-15T09:30:45Z" name="before_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@2dfaea86]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -30,100 +30,25 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+          <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 96
-Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'A-ABDELSATAR', ip: '197.168.3.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00B26903+2517251]
-	Ordinal0 [0x00ABF8E1+2095329]
-	Ordinal0 [0x009C2848+1058888]
-	Ordinal0 [0x009E0B9D+1182621]
-	Ordinal0 [0x009DCA60+1165920]
-	Ordinal0 [0x009DA2CF+1155791]
-	Ordinal0 [0x00A0AAAF+1354415]
-	Ordinal0 [0x00A0A71A+1353498]
-	Ordinal0 [0x00A0639B+1336219]
-	Ordinal0 [0x009E27A7+1189799]
-	Ordinal0 [0x009E3609+1193481]
-	GetHandleVerifier [0x00CB5904+1577972]
-	GetHandleVerifier [0x00D60B97+2279047]
-	GetHandleVerifier [0x00BB6D09+534521]
-	GetHandleVerifier [0x00BB5DB9+530601]
-	Ordinal0 [0x00AC4FF9+2117625]
-	Ordinal0 [0x00AC98A8+2136232]
-	Ordinal0 [0x00AC99E2+2136546]
-	Ordinal0 [0x00AD3541+2176321]
-	BaseThreadInitThunk [0x746E0419+25]
-	RtlGetAppContainerNamedObjectPath [0x770B72ED+237]
-	RtlGetAppContainerNamedObjectPath [0x770B72BD+189]
-]]>
+              <![CDATA[The driver executable does not exist: C:\Users\ahmed.abdelstar\eclipse-workspace\RestAssured3\TestData\chromedriver.exe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 96
-Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'A-ABDELSATAR', ip: '197.168.3.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00B26903+2517251]
-	Ordinal0 [0x00ABF8E1+2095329]
-	Ordinal0 [0x009C2848+1058888]
-	Ordinal0 [0x009E0B9D+1182621]
-	Ordinal0 [0x009DCA60+1165920]
-	Ordinal0 [0x009DA2CF+1155791]
-	Ordinal0 [0x00A0AAAF+1354415]
-	Ordinal0 [0x00A0A71A+1353498]
-	Ordinal0 [0x00A0639B+1336219]
-	Ordinal0 [0x009E27A7+1189799]
-	Ordinal0 [0x009E3609+1193481]
-	GetHandleVerifier [0x00CB5904+1577972]
-	GetHandleVerifier [0x00D60B97+2279047]
-	GetHandleVerifier [0x00BB6D09+534521]
-	GetHandleVerifier [0x00BB5DB9+530601]
-	Ordinal0 [0x00AC4FF9+2117625]
-	Ordinal0 [0x00AC98A8+2136232]
-	Ordinal0 [0x00AC99E2+2136546]
-	Ordinal0 [0x00AD3541+2176321]
-	BaseThreadInitThunk [0x746E0419+25]
-	RtlGetAppContainerNamedObjectPath [0x770B72ED+237]
-	RtlGetAppContainerNamedObjectPath [0x770B72BD+189]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\ahmed.abdelstar\eclipse-workspace\RestAssured3\TestData\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
 	at basic.Config.SetUp.before_Method(SetUp.java:67)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
@@ -148,121 +73,117 @@ remote stacktrace: Backtrace:
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method signature="get_Title()[pri:0, instance:testCases.LoginTest@239a307b]" started-at="2022-02-15T09:30:45Z" name="get_Title" finished-at="2022-02-15T09:30:45Z" duration-ms="1" status="SKIP">
+        <test-method signature="get_Title()[pri:0, instance:testCases.LoginTest@2dfaea86]" started-at="2022-04-22T03:50:03Z" name="get_Title" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_Title -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@239a307b]" started-at="2022-02-15T09:30:45Z" name="after_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@2dfaea86]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method signature="get_Url()[pri:0, instance:testCases.LoginTest@239a307b]" started-at="2022-02-15T09:30:45Z" name="get_Url" finished-at="2022-02-15T09:30:45Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- get_Url -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@239a307b]" started-at="2022-02-15T09:30:45Z" name="before_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@2dfaea86]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@239a307b]" started-at="2022-02-15T09:30:45Z" name="after_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method signature="get_Url()[pri:0, instance:testCases.LoginTest@2dfaea86]" started-at="2022-04-22T03:50:03Z" name="get_Url" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Url -->
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@2dfaea86]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
       </class> <!-- testCases.LoginTest -->
       <class name="testCases.Rest1Test">
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="before_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method signature="check_Datajson()[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="check_Datajson" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method signature="check_Datajson()[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="check_Datajson" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_Datajson -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="after_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="before_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="after_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_Method -->
-        <test-method signature="check_Status()[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="check_Status" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method signature="check_Status()[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="check_Status" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_Status -->
-        <test-method signature="check_data2()[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="check_data2" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method signature="check_data2()[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="check_data2" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_data2 -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="before_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_Method -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="before_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_Method -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:45Z" name="after_Method" finished-at="2022-02-15T09:30:45Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method signature="getPageData()[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="getPageData" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method signature="getPageData()[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="getPageData" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageData -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="before_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_Method -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="after_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method signature="getTitle()[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="getTitle" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method signature="getTitle()[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="getTitle" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="after_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="before_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method signature="getURL()[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="getURL" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method signature="getURL()[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="getURL" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getURL -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="after_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="before_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method signature="restTest2Statuscode()[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="restTest2Statuscode" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method signature="restTest2Statuscode()[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="restTest2Statuscode" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- restTest2Statuscode -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="after_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="before_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_Method -->
-        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="test_all_rest" data-provider="Provider" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="test_all_rest" data-provider="Provider" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -273,15 +194,19 @@ remote stacktrace: Backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_all_rest -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="before_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="after_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="test_all_rest" data-provider="Provider" finished-at="2022-02-15T09:30:46Z" duration-ms="1" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="test_all_rest" data-provider="Provider" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -292,15 +217,15 @@ remote stacktrace: Backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_all_rest -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="after_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="before_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="test_all_rest" data-provider="Provider" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="test_all_rest" data-provider="Provider" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -311,15 +236,15 @@ remote stacktrace: Backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_all_rest -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="after_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="before_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="test_all_rest" data-provider="Provider" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="test_all_rest" data-provider="Provider" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -330,7 +255,11 @@ remote stacktrace: Backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_all_rest -->
-        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="test_all_rest" data-provider="Provider" finished-at="2022-02-15T09:30:46Z" duration-ms="1" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method signature="test_all_rest(java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="test_all_rest" data-provider="Provider" finished-at="2022-04-22T03:50:03Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -341,15 +270,11 @@ remote stacktrace: Backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_all_rest -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="after_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_Method -->
-        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="before_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="before_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_Method -->
-        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@43f02ef2]" started-at="2022-02-15T09:30:46Z" name="after_Method" finished-at="2022-02-15T09:30:46Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.Rest1Test@5b38c1ec]" started-at="2022-04-22T03:50:03Z" name="after_Method" finished-at="2022-04-22T03:50:03Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_Method -->

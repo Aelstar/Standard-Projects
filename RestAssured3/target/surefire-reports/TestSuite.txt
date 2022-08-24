@@ -1,47 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 57.632 s <<< FAILURE! - in TestSuite
-check_Status(testCases.Rest1Test)  Time elapsed: 0.349 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <300> but was <200>.
+Tests run: 43, Failures: 1, Errors: 0, Skipped: 42, Time elapsed: 2.76 s <<< FAILURE! - in TestSuite
+before_Method(testCases.LoginTest)  Time elapsed: 2.174 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 100
+Current browser version is 104.0.5112.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'A-ABDELSATAR', ip: '10.10.10.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BB7413+2389011]
+	Ordinal0 [0x00B49F61+1941345]
+	Ordinal0 [0x00A3C658+837208]
+	Ordinal0 [0x00A5C773+968563]
+	Ordinal0 [0x00A5837A+951162]
+	Ordinal0 [0x00A55C51+941137]
+	Ordinal0 [0x00A88C80+1150080]
+	Ordinal0 [0x00A888DA+1149146]
+	Ordinal0 [0x00A83F66+1130342]
+	Ordinal0 [0x00A5E546+976198]
+	Ordinal0 [0x00A5F456+980054]
+	GetHandleVerifier [0x00D69632+1727522]
+	GetHandleVerifier [0x00E1BA4D+2457661]
+	GetHandleVerifier [0x00C4EB81+569713]
+	GetHandleVerifier [0x00C4DD76+566118]
+	Ordinal0 [0x00B50B2B+1968939]
+	Ordinal0 [0x00B55988+1989000]
+	Ordinal0 [0x00B55A75+1989237]
+	Ordinal0 [0x00B5ECB1+2026673]
+	BaseThreadInitThunk [0x771C0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778872ED+237]
+	RtlGetAppContainerNamedObjectPath [0x778872BD+189]
 
-	at testCases.Rest1Test.check_Status(Rest1Test.java:32)
-
-test_all_rest(testCases.Rest1Test)  Time elapsed: 0.264 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path data[3].'email' doesn't match.
-Expected: Ahmed 1
-  Actual: byron.fields@reqres.in
-
-	at testCases.Rest1Test.test_all_rest(Rest1Test.java:84)
-
-test_all_rest(testCases.Rest1Test)  Time elapsed: 0.278 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path data[3].'email' doesn't match.
-Expected: Ahmed 2
-  Actual: byron.fields@reqres.in
-
-	at testCases.Rest1Test.test_all_rest(Rest1Test.java:84)
-
-test_all_rest(testCases.Rest1Test)  Time elapsed: 0.256 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path data[3].'email' doesn't match.
-Expected: Ahmed 3
-  Actual: byron.fields@reqres.in
-
-	at testCases.Rest1Test.test_all_rest(Rest1Test.java:84)
-
-test_all_rest(testCases.Rest1Test)  Time elapsed: 0.261 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path data[3].'email' doesn't match.
-Expected: Ahmed 4
-  Actual: byron.fields@reqres.in
-
-	at testCases.Rest1Test.test_all_rest(Rest1Test.java:84)
 

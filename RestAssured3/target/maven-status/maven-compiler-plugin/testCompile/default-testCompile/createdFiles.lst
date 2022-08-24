@@ -1,4 +1,9 @@
+testCases\Gmail.class
 testCases\Rest1Test.class
 testCases\LoginTest.class
-runners\Runners.class
 testCases\Extent.class
+testCases\Mmail.class
+testCases\Rest2Test.class
+testCases\GoDaddy.class
+testCases\GoDaddy$1.class
+runners\Runners.class

@@ -58,9 +58,9 @@ public class SetUp {
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmed.abdelstar\\eclipse-workspace\\RestAssured3\\TestData\\chromedriver.exe");
 			
 			ChromeOptions option =new ChromeOptions();
-			option.addArguments("--mute-audio");
-			option.addArguments("--incognito");
 			
+			option.addArguments("--mute-audio");
+			option.addArguments("--incognito");	
 			option.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
 			option.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 			
@@ -126,6 +126,9 @@ public class SetUp {
 		driver.close();
 		
 	}
+	
+	
+
 	
 
 }

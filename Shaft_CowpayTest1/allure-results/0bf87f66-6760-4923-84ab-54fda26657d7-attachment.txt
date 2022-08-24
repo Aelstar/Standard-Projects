@@ -1,0 +1,14 @@
+
+################################################################################################################################################
+Starting Execution:	[4 out of 5] test cases in the current suite
+Test Method:		[testCases.LoginTest.checklogindone]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20220315-102444", Target File: "\1647332717715_checklogindone.gif"]. @15-03-2022 10:25:17.0765 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [3+]. @15-03-2022 10:25:18.0041 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Your money transfer to mobile walat 01023456789 is pending]. @15-03-2022 10:25:18.0745 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [By.xpath: //div[contains(@class,'hamburger' )]]. @15-03-2022 10:25:19.0405 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Merchants]. @15-03-2022 10:25:20.0103 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Merchants]. @15-03-2022 10:25:20.0690 AM
+[ReportManager] Assertion [ValidateElementAttribute] PASSED. Expected [Value Should be 'Merchants' for the 'text' attribute, element locator 'By.xpath: //span[contains(text(),'Merchants')]'] and Actual [Merchants]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @15-03-2022 10:25:21.0377 AM
+[ReportManager] Successfully created attachment [Screenshot - 1647332721256_checklogindone_ValidateElementAttribute_passed] @15-03-2022 10:25:21.0382 AM
+[ReportManager] Successfully created attachment [Animated Gif - checklogindone] @15-03-2022 10:25:21.0386 AM

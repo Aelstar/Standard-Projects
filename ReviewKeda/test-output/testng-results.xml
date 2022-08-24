@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="0" failed="0" skipped="6">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-31T15:02:27Z" name="Default suite" finished-at="2022-05-31T15:02:28Z" duration-ms="394">
+    <groups>
+    </groups>
+    <test started-at="2022-05-31T15:02:27Z" name="Default test" finished-at="2022-05-31T15:02:28Z" duration-ms="394">
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="before_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method before_Method but has not been marked @Optional or defined
+in C:\Users\ahmed.abdelstar\AppData\Local\Temp\testng-eclipse-1413830263\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method before_Method but has not been marked @Optional or defined
+in C:\Users\ahmed.abdelstar\AppData\Local\Temp\testng-eclipse-1413830263\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="test1" data-provider="readExcel" finished-at="2022-05-31T17:02:28Z" duration-ms="4" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="after_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="before_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="test1" data-provider="readExcel" finished-at="2022-05-31T17:02:28Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmed 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohamed 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="after_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="test1" data-provider="readExcel" finished-at="2022-05-31T17:02:28Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmed 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohamed 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="before_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="before_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="after_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="test1" data-provider="readExcel" finished-at="2022-05-31T17:02:28Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmed 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohamed 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="before_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="after_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="test1" data-provider="readExcel" finished-at="2022-05-31T17:02:28Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmed 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohamed 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="before_Method(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="before_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="after_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="test1" data-provider="readExcel" finished-at="2022-05-31T17:02:28Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmed 5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohamed 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="after_Method(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4a8355dd]" started-at="2022-05-31T17:02:28Z" name="after_Method" finished-at="2022-05-31T17:02:28Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

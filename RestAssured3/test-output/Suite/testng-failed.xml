@@ -20,11 +20,6 @@
           <include name="getPageData"/>
         </methods>
       </class> <!-- testCases.Rest1Test -->
-      <class name="testCases.Extent">
-        <methods>
-          <include name="ExtentsRep"/>
-        </methods>
-      </class> <!-- testCases.Extent -->
       <class name="testCases.LoginTest">
         <methods>
           <include name="get_Title"/>
@@ -32,6 +27,11 @@
           <include name="get_Url"/>
         </methods>
       </class> <!-- testCases.LoginTest -->
+      <class name="testCases.Extent">
+        <methods>
+          <include name="ExtentsRep"/>
+        </methods>
+      </class> <!-- testCases.Extent -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

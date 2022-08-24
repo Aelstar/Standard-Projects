@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 5] test cases in the current suite
+Test Method:		[testCases.LoginTest.initialBrowser]
+################################################################################################################################################
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/Extractor Data.xlsx]. @15-03-2022 10:25:16.0200 AM
+[ReportManager] Successfully created attachment [Test Data - Excel] @15-03-2022 10:25:16.0201 AM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @15-03-2022 10:25:16.0202 AM
+[ReportManager] Attempting to run locally on: [Windows-64], [GoogleChrome]. @15-03-2022 10:25:16.0202 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @15-03-2022 10:25:16.0203 AM
+[ReportManager] Driver Factory Action [createNewLocalDriverInstance] failed. With the following test data [Failed to create new Browser Session]. @15-03-2022 10:25:17.0139 AM
+[ReportManager] An Exception Occured with this Message: Could not start a new session. Handshake response does not match any supported protocol. @15-03-2022 10:25:17.0141 AM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.SessionNotCreatedException] @15-03-2022 10:25:17.0142 AM

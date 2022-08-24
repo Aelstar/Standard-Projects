@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="listeners.ITListeners"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.Rest1">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+          <include name="RestTest4"/>
+          <include name="RestTest3"/>
+        </methods>
+      </class> <!-- testCases.Rest1 -->
+      <class name="testCases.ExtentsTest">
+        <methods>
+          <include name="After_Suite"/>
+          <include name="before_Suite"/>
+        </methods>
+      </class> <!-- testCases.ExtentsTest -->
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.Hotest2">
+        <methods>
+          <include name="after_Method"/>
+          <include name="before_Method"/>
+        </methods>
+      </class> <!-- testCases.Hotest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

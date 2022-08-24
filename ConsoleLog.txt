@@ -1,0 +1,18 @@
+[RemoteTestNG] detected TestNG version 7.4.0
+will start Test
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 18945
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2022 3:54:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[2022-06-19T15:54:29+0200] [SEVERE] https://adservice.google.com/adsid/google/ui - Failed to load resource: net::ERR_CONNECTION_RESET
+Message is: https://adservice.google.com/adsid/google/ui - Failed to load resource: net::ERR_CONNECTION_RESET
+Level is: SEVERE
+test is starting
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+===============================================
+

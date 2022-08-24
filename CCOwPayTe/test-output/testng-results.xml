@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-24T15:32:16 EET" name="Suite" finished-at="2022-08-24T15:35:15 EET" duration-ms="179117">
+    <groups>
+    </groups>
+    <test started-at="2022-08-24T15:32:16 EET" name="Test" finished-at="2022-08-24T15:35:15 EET" duration-ms="179117">
+      <class name="pagesTest.TaxPage105Test">
+        <test-method is-config="true" signature="beforeStartTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:pagesTest.TaxPage105Test@5f8e8a9d]" started-at="2022-08-24T15:33:31 EET" name="beforeStartTest" finished-at="2022-08-24T15:33:39 EET" duration-ms="8294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void pagesTest.TaxPage105Test.get_TaxNames() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeStartTest -->
+        <test-method signature="get_TaxNames()[pri:0, instance:pagesTest.TaxPage105Test@5f8e8a9d]" started-at="2022-08-24T15:33:39 EET" name="get_TaxNames" finished-at="2022-08-24T15:35:14 EET" duration-ms="94799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_TaxNames -->
+        <test-method is-config="true" signature="after_Method(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:pagesTest.TaxPage105Test@5f8e8a9d]" started-at="2022-08-24T15:35:14 EET" name="after_Method" finished-at="2022-08-24T15:35:15 EET" duration-ms="1159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_TaxNames status=SUCCESS method=TaxPage105Test.get_TaxNames()[pri:0, instance:pagesTest.TaxPage105Test@5f8e8a9d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void pagesTest.TaxPage105Test.get_TaxNames() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+      </class> <!-- pagesTest.TaxPage105Test -->
+      <class name="pagesTest.ExtentTest">
+        <test-method is-config="true" signature="before_Suite()[pri:0, instance:pagesTest.ExtentTest@6f53b8a]" started-at="2022-08-24T15:32:16 EET" name="before_Suite" finished-at="2022-08-24T15:32:16 EET" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Suite -->
+        <test-method is-config="true" signature="After_Suite()[pri:0, instance:pagesTest.ExtentTest@6f53b8a]" started-at="2022-08-24T15:35:15 EET" name="After_Suite" finished-at="2022-08-24T15:35:15 EET" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Suite -->
+      </class> <!-- pagesTest.ExtentTest -->
+      <class name="pagesTest.TaxPage103Test">
+        <test-method is-config="true" signature="beforeStartTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:pagesTest.TaxPage103Test@2de56eb2]" started-at="2022-08-24T15:32:16 EET" name="beforeStartTest" finished-at="2022-08-24T15:32:25 EET" duration-ms="9538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void pagesTest.TaxPage103Test.get_TaxNames() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeStartTest -->
+        <test-method signature="get_TaxNames()[pri:0, instance:pagesTest.TaxPage103Test@2de56eb2]" started-at="2022-08-24T15:32:25 EET" name="get_TaxNames" finished-at="2022-08-24T15:33:30 EET" duration-ms="64260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_TaxNames -->
+        <test-method is-config="true" signature="after_Method(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:pagesTest.TaxPage103Test@2de56eb2]" started-at="2022-08-24T15:33:30 EET" name="after_Method" finished-at="2022-08-24T15:33:31 EET" duration-ms="971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_TaxNames status=SUCCESS method=TaxPage103Test.get_TaxNames()[pri:0, instance:pagesTest.TaxPage103Test@2de56eb2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void pagesTest.TaxPage103Test.get_TaxNames() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+      </class> <!-- pagesTest.TaxPage103Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

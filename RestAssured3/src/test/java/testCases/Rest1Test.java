@@ -1,6 +1,5 @@
 package testCases;
 
-
 import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -20,6 +19,7 @@ public class Rest1Test extends SetUp{
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
 	Rest1Page restpage;
 	
 @When("check Status")
@@ -33,6 +33,8 @@ public class Rest1Test extends SetUp{
 		
 		System.out.println("check status code************");
 	}
+
+
 	@When("check Datajson")
 	@Test
 	public void check_Datajson() {
@@ -49,7 +51,10 @@ public class Rest1Test extends SetUp{
 	@When("check data2")
 	@Test
 	public void check_data2() {
-		given().get(prop.getProperty("API")).then().assertThat().body("data[0].'email'", equalTo("michael.lawson@reqres.in"));
+		given()
+		.get(prop.getProperty("API"))
+		.then().assertThat()
+		.body("data[0].'email'", equalTo("michael.lawson@reqres.in"));
 		
 	
 		

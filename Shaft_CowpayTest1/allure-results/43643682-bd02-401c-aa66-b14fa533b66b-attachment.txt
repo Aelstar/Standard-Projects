@@ -1,0 +1,8 @@
+
+################################################################################################################################################
+Starting Execution:	[5 out of 5] test cases in the current suite
+Test Method:		[testCases.LoginTest.AddNewCandidate]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20220315-102444", Target File: "\1647332721854_AddNewCandidate.gif"]. @15-03-2022 10:25:21.0899 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Add New candidate]. @15-03-2022 10:25:22.0206 AM
+[ReportManager] Successfully created attachment [Animated Gif - AddNewCandidate] @15-03-2022 10:25:22.0208 AM
